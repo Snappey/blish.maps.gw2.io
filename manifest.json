@@ -1,0 +1,25 @@
+{
+  "name": "maps.gw2.io",
+  "version": "0.1.0",
+  "namespace": "snappey.livemap",
+  "package": "blish.maps.gw2.io.dll",
+  "manifest_version": 1,
+  "api_permissions": {
+    "account": {
+      "optional": false,
+      "details": "Required to authenticate you as a unique player across characters"
+    }
+  },
+  "description": "Relays character location data to https://map.gw2.io",
+  "dependencies": {
+    "bh.blishhud": ">=0.5.2"
+  },
+  "url": "https://github.com/Snappey/map.gw2.io",
+  "contributors": [
+    {
+      "name": "Snappey",
+      "username": "Snappy.8941",
+      "url": "https://github.com/Snappey"
+    }
+  ]
+}
